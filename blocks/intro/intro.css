@@ -1,0 +1,32 @@
+.intro {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 40px 18px;
+  gap: 40px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .intro {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    padding: 20px 0 0 40px;
+    max-width: 1280px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    align-items: flex-start;
+    gap: 45px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .intro {
+    padding-left: 120px;
+    max-width: 1440px;
+  }
+}

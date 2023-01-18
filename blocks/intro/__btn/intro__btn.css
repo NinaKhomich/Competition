@@ -1,0 +1,41 @@
+.intro__btn {
+  width: 100%;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 13px 0 14px;
+  background-color: #24B47E;
+  border-radius: 4px;
+  position: relative;
+  z-index: 1;
+}
+
+.intro__btn::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #319E75;
+  transition: 0.6s;
+  z-index: -1;
+}
+
+.intro__btn:hover::before {
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__btn {
+    width: fit-content;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 16px 46px;
+    margin-top: 7px;
+  }
+}

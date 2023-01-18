@@ -1,0 +1,25 @@
+.intro__cycle-photo {
+  width: 234px;
+  height: 160px;
+  object-fit: cover;
+  background-color: #f4f4f4;
+  padding: 11px 27px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.2));
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__cycle-photo {
+    width: 440px;
+    height: 300px;
+    padding: 20px 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__cycle-photo {
+    position: sticky;
+    top: 347px;
+  }
+}

@@ -8,3 +8,14 @@
 @import url('../blocks/header/__links/header__links.css');
 @import url('../blocks/header/__link/header__link.css');
 @import url('../blocks/burger-menu/burger-menu.css');
+
+@import url('../blocks/main/main.css');
+
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__img/intro__img.css');
+@import url('../blocks/intro/__head/intro__head.css');
+@import url('../blocks/intro/__text/intro__text.css');
+@import url('../blocks/intro/__sticky-area/intro__sticky-area.css');
+@import url('../blocks/intro/__cycle-photo/intro__cycle-photo.css');
+@import url('../blocks/intro/__cycle-name/intro__cycle-name.css');
+@import url('../blocks/intro/__btn/intro__btn.css');
