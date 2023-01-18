@@ -19,3 +19,11 @@
 @import url('../blocks/intro/__cycle-photo/intro__cycle-photo.css');
 @import url('../blocks/intro/__cycle-name/intro__cycle-name.css');
 @import url('../blocks/intro/__btn/intro__btn.css');
+
+@import url('../blocks/quote/quote.css');
+@import url('../blocks/quote/__img/quote__img.css');
+@import url('../blocks/quote/__content/quote__content.css');
+@import url('../blocks/quote/__block/quote__block.css');
+@import url('../blocks/quote/__text/quote__text.css');
+@import url('../blocks/quote/__author/quote__author.css');
+@import url('../blocks/quote/__author-subline/quote__author-subline.css');
