@@ -1,10 +1,147 @@
-@import url('../vendor/normalize.css');
-@import url('../vendor/fonts.css');
-@import url('../blocks/page/page.css');
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts.css");
+@import url("../blocks/page/page.css");
 
-@import url('../blocks/header/header.css');
-@import url('../blocks/header/__wrapper/header__wrapper.css');
-@import url('../blocks/header/__nav/header__nav.css');
-@import url('../blocks/header/__links/header__links.css');
-@import url('../blocks/header/__link/header__link.css');
-@import url('../blocks/burger-menu/burger-menu.css');
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__wrapper/header__wrapper.css");
+@import url("../blocks/header/__nav/header__nav.css");
+@import url("../blocks/header/__links/header__links.css");
+@import url("../blocks/header/__link/header__link.css");
+@import url("../blocks/burger-menu/burger-menu.css");
+
+.footer {
+  padding: 80px 120px 60px 120px;
+  background-color: #2f2f2f;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 60px 18px 25px 18px;
+  }
+}
+
+.footer__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  max-width: 230px;
+  margin: 0 0 50px 0;
+}
+
+.footer__form {
+  position: relative;
+  max-width: 360px;
+}
+
+.footer__input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  margin: 0 0 100px;
+  background: inherit;
+  box-shadow: none;
+  border: 1px solid rgba(125, 125, 125, 0.5);
+  border-radius: 4px;
+  padding: 0 20px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.footer__input:focus {
+  border: 1px solid rgb(125, 125, 125);
+  outline: none;
+}
+
+.footer__input:focus + .footer__input-submit {
+  visibility: visible;
+}
+
+.footer__input:focus::placeholder {
+  color: transparent;
+}
+
+.footer__input::placeholder {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 13px;
+  color: #fff;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.footer__input:hover::placeholder {
+  opacity: 1;
+}
+
+.footer__input-submit {
+  visibility: hidden;
+  padding: 0;
+  position: absolute;
+  top: 15px;
+  right: 22px;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copyright {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #565656;
+  margin: 0;
+}
+
+.footer__switcher {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.footer__switcher-backgrond {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 24px;
+  background: #545454;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__switcher-backgrond {
+    width: 32px;
+    height: 32px;
+    background: url("../images/footer/sun-mobile.svg") center no-repeat;
+  }
+}
+
+.footer__switcher-item {
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 2px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: #24b47e;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__switcher-item {
+    display: none;
+  }
+
+  .footer__switcher-img {
+    display: none;
+  }
+}
