@@ -1,11 +1,7 @@
 .quote__img {
   width: 100%;
   max-width: 650px;
+  object-fit: cover;
   display: block;
   margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-  .quote__img {
-  }
 }
