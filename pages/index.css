@@ -11,6 +11,9 @@
 
 @import url('../blocks/main/main.css');
 
+@import url('../blocks/section-title/section-title.css');
+@import url('../blocks/section-subtitle/section-subtitle.css');
+
 @import url('../blocks/intro/intro.css');
 @import url('../blocks/intro/__img/intro__img.css');
 @import url('../blocks/intro/__head/intro__head.css');
@@ -27,3 +30,10 @@
 @import url('../blocks/quote/__text/quote__text.css');
 @import url('../blocks/quote/__author/quote__author.css');
 @import url('../blocks/quote/__author-subline/quote__author-subline.css');
+
+@import url('../blocks/road/road.css');
+
+@import url('../blocks/slider/slider.css');
+@import url('../blocks/slider/__img/slider__img.css');
+@import url('../blocks/arrows/arrows.css');
+@import url('../blocks/arrow/arrow.css');

@@ -1,11 +1,11 @@
-.intro__head {
+/* .intro__head {
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
   letter-spacing: -0.5px;
   max-width: 190px;
   margin: 0;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .intro__head {
@@ -15,8 +15,8 @@
 
 @media screen and (min-width: 1280px) {
   .intro__head {
-    font-size: 55px;
-    line-height: 60px;
+    /* font-size: 55px;
+    line-height: 60px; */
     max-width: 320px;
   }
 }
