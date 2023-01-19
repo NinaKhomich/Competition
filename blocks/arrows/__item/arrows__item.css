@@ -1,0 +1,33 @@
+.arrows__item {
+  width: 24px;
+  height: 24px;
+  border: none;
+  padding: 0;
+  border-radius: 30px;
+  background-color: #434343;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 5px 10px;
+  transition: opacity .4s;
+}
+
+.arrows__item:first-child {
+  margin-right: 7px;
+}
+
+.arrows__item:hover {
+  opacity: .6;
+}
+
+@media screen and (min-width: 1024px) {
+  .arrows__item {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-size: 7px 16px;
+  }
+
+  .arrows__item:first-child {
+    margin-right: 20px;
+  }
+}

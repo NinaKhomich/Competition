@@ -31,9 +31,13 @@
 @import url('../blocks/quote/__author/quote__author.css');
 @import url('../blocks/quote/__author-subline/quote__author-subline.css');
 
-@import url('../blocks/road/road.css');
-
+@import url('../blocks/roads/roads.css');
+@import url('../blocks/roads/__item/roads__item.css');
 @import url('../blocks/slider/slider.css');
 @import url('../blocks/slider/__img/slider__img.css');
+@import url('../blocks/slider/__img-label/slider__img-label.css');
+@import url('../blocks/slider/__img-label/_road/slider__img-label_road_highway.css');
 @import url('../blocks/arrows/arrows.css');
-@import url('../blocks/arrow/arrow.css');
+@import url('../blocks/arrows/__item/arrows__item.css');
+@import url('../blocks/arrows/__item/_direction/arrows__item_direction_left.css');
+@import url('../blocks/arrows/__item/_direction/arrows__item_direction_right.css');

@@ -1,13 +1,18 @@
 .slider {
   display: flex;
-  width: 100%;
-  overflow: hidden;
   grid-row-start: 2;
   grid-row-end: 3;
+  position: relative;
 }
 
 @media screen and (min-width: 576px) {
   .slider {
     grid-row-start: 3;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .slider {
+    margin-top: 30px;
   }
 }

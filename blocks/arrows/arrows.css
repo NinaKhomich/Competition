@@ -1,5 +1,12 @@
 .arrows {
   position: absolute;
   right: 18px;
-  top: 47px;
+  top: 87px;
+}
+
+@media screen and (min-width: 1024px) {
+  .arrows {
+    position: static;
+    margin-top: 50px;
+  }
 }

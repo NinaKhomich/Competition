@@ -1,0 +1,15 @@
+.roads__item {
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 42px;
+  gap: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  .roads__item {
+    padding-top: 0;
+    gap: 50px;
+  }
+}
