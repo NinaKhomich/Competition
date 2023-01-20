@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Велоспорт</title>
 </head>
+
 <body class="page">
   <header class="header">
     <div class="header__wrapper">
@@ -26,8 +28,8 @@
       <div class="burger-menu"></div>
     </div>
   </header>
-  <main class="main">
-    <section class="intro">
+  <main class="content">
+      <section class="intro">
       <h1 class="intro__head section-title">Шоссе, ТТ и&nbsp;Грэвел</h1>
       <p class="intro__text section-subtitle">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам - нужно только определиться с выбором велосипеда и отправиться в путь.</p>
       <a href="#" class="intro__btn" target="_blank">Подробнее</a>
@@ -64,8 +66,75 @@
         <button type="button" class="arrows__item arrows__item_direction_right"></button>
       </div>
     </section>
+    <section class="content__bikes bikes">
+      <div class="bikes__heading">
+        <h2 class="bikes__title">Велосипеды</h2>
+        <ul class="bikes__nav">
+          <li>
+            <a class="bikes__nav-item bikes__nav-item_active" href="#">Шоссе</a>
+          </li>
+          <li>
+            <a class="bikes__nav-item" href="#">Грэвел</a>
+          </li>
+          <li>
+            <a class="bikes__nav-item" href="#">TT</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="bikes__slider">
+        <li class="bikes__slide">
+          <img class="bikes__image" src="images/bikes/1.jpg" alt="Велосипед Cervelo Caledonia-5">
+          <p class="bikes__name">Cervelo Caledonia-5</p>
+        </li>
+        <li class="bikes__slide">
+          <img class="bikes__image" src="images/bikes/2.jpg" alt="Велосипед Cannondale Systemsix Himod">
+          <p class="bikes__name">Cannondale Systemsix Himod</p>
+        </li>
+        <li class="bikes__slide">
+          <img class="bikes__image" src="images/bikes/3.jpg" alt="Велосипед Trek Domane SL-7">
+          <p class="bikes__name">Trek Domane SL-7</p>
+        </li>
+      </ul>
+      <div class="bikes__dots">
+        <a href="#" class="bikes__dot bikes__dot_active"></a>
+        <a href="#" class="bikes__dot"></a>
+        <a href="#" class="bikes__dot"></a>
+      </div>
+    </section>
+    <section class="content__train train">
+      <h2 class="train__title">Тренировки</h2>
+      <img class="train__img" src="images/train/1.jpg" alt="Дорога за городом">
+      <p class="train__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а&nbsp;записать
+        эти тренировки поможет приложение Strava, а&nbsp;также это приложение позволит построить тренировочный план.
+      </p>
+      <ul class="train__links">
+        <li>
+          <a class="train__link" href="#">Strava</a>
+        </li>
+        <li>
+          <a class="train__link" href="#">Komoot</a>
+        </li>
+      </ul>
+    </section>
   </main>
+  <footer class="footer">
+    <h2 class="footer__title">Подпишитесь на рассылку —</h2>
+    <form class="footer__form">
+      <input class="footer__input" type="e-mail" placeholder="Ваш e-mail">
+      <button class="footer__input-submit" type="submit">ok</button>
+    </form>
+    <div class="footer__bottom">
+      <p class="footer__copyright">&copy; Road Club 2021</p>
+      <div class="footer__switcher">
+        <img class="footer__switcher-img" src="images/footer/sun.svg" alt="Иконка светлой темы">
+        <a class="footer__switcher-backgrond" href="#">
+          <span class="footer__switcher-item"></span>
+        </a>
+        <img class="footer__switcher-img" src="images/footer/moon.svg" alt="Иконка темной темы">
+      </div>
+    </div>
+  </footer>
 
-  
 </body>
+
 </html>
