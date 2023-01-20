@@ -1,0 +1,8 @@
+.bikes__nav-item_active {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.bikes__nav-item_active:hover {
+  opacity: 0.65;
+}

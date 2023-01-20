@@ -1,0 +1,12 @@
+.bikes__heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 118px 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .bikes__heading {
+    flex-direction: column;
+    margin: 40px 0 20px 0;
+  }
+}

@@ -1,0 +1,22 @@
+.header__wrapper {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 26px 18px 45px;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__wrapper {
+    padding-top: 28px;
+    padding-bottom: 27px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header__wrapper {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

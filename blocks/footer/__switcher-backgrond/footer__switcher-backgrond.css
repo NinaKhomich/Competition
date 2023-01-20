@@ -1,0 +1,17 @@
+.footer__switcher-backgrond {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 24px;
+  background: #545454;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__switcher-backgrond {
+    width: 32px;
+    height: 32px;
+    background: url("../../../images/footer/sun-mobile.svg") center no-repeat;
+  }
+}

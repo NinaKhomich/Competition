@@ -1,0 +1,12 @@
+.footer__input-submit {
+  visibility: hidden;
+  padding: 0;
+  position: absolute;
+  top: 15px;
+  right: 22px;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}

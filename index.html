@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,141 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Велоспорт</title>
 </head>
-<body>
-  
+
+<body class="page">
+  <header class="header">
+    <div class="header__wrapper">
+      <nav class="header__nav">
+        <ul class="header__links">
+          <li class="header__links-item">
+            <a href="#roads" class="header__link">Покрытия и градиенты</a>
+          </li>
+          <li class="header__links-item">
+            <a href="#bikes" class="header__link">Велосипеды</a>
+          </li>
+          <li class="header__links-item">
+            <a href="#train" class="header__link">Тренировки</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="burger-menu"></div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="intro">
+      <h1 class="intro__head section-title">Шоссе, ТТ и&nbsp;Грэвел</h1>
+      <p class="intro__text section-text">Триатлонные старты, горные серпантины или грейвел заезды по живописным
+        маршрутам - нужно только определиться с выбором велосипеда и отправиться в путь.</p>
+      <a href="#" class="intro__btn" target="_blank">Подробнее</a>
+      <div class="intro__sticky-area">
+        <img class="intro__cycle-photo" src="./images/intro/cannondale-systemsix.png" alt="Велосипед Каннондейл Системсикс">
+      </div>
+      <p class="intro__cycle-name">Cannondale Systemsix</p>
+      <img src="./images/intro/intro-img.jpg" alt="маршрут для велосипеда, лес, горы" class="intro__img">
+    </section>
+    <section class="quote" aria-label="Цитата велогонщика Эдди Меркс">
+      <img class="quote__img" src="./images/quote/quote-pic.jpg" alt="Природа, прогулки на велосипеде, велоспорт">
+      <div class="quote__content">
+        <blockquote class="quote__block">
+          <p class="quote__text">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</p>
+        </blockquote>
+        <div class="quote__author-info">
+          <p class="quote__author">Эдди Меркс</p>
+          <p class="quote__author-subline">Велогонщик</p>
+        </div>
+      </div>
+    </section>
+    <section class="roads" id="roads" aria-label="Тип дороги">
+      <article class="roads__item">
+        <h2 class="roads__title section-title">Шоссе</h2>
+        <p class="roads__text section-text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах:
+          будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+        <div class="slider">
+          <img class="slider__img" src="./images/roads/highway.jpg" alt="шоссе, дорога для езды на велосипеде">
+          <img class="slider__img" src="./images/roads/gravel.jpg" alt="грэвел, дорога для езды на велосипеде">
+          <div class="slider__img-label slider__img-label_road_highway"></div>
+        </div>
+      </article>
+      <div class="arrows">
+        <button type="button" class="arrows__item arrows__item_direction_left"></button>
+        <button type="button" class="arrows__item arrows__item_direction_right"></button>
+      </div>
+    </section>
+    <section id="bikes" class="bikes">
+      <div class="bikes__heading">
+        <h2 class="bikes__title section-title">Велосипеды</h2>
+        <ul class="bikes__nav">
+          <li>
+            <a class="bikes__nav-item bikes__nav-item_active" href="#">Шоссе</a>
+          </li>
+          <li>
+            <a class="bikes__nav-item" href="#">Грэвел</a>
+          </li>
+          <li>
+            <a class="bikes__nav-item" href="#">TT</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="bikes__slider">
+        <li class="bikes__slide">
+          <a href="#" class="bikes__slide-link">
+            <img class="bikes__image" src="images/bikes/1.jpg" alt="Велосипед Cervelo Caledonia-5">
+            <p class="bikes__name">Cervelo Caledonia-5</p>
+          </a>
+        </li>
+        <li class="bikes__slide">
+          <a href="#" class="bikes__slide-link">
+            <img class="bikes__image" src="images/bikes/2.jpg" alt="Велосипед Cannondale Systemsix Himod">
+            <p class="bikes__name">Cannondale Systemsix Himod</p>
+          </a>
+        </li>
+        <li class="bikes__slide">
+          <a href="#" class="bikes__slide-link">
+            <img class="bikes__image" src="images/bikes/3.jpg" alt="Велосипед Trek Domane SL-7">
+            <p class="bikes__name">Trek Domane SL-7</p>
+          </a>
+        </li>
+      </ul>
+      <div class="bikes__dots">
+        <a href="#" class="bikes__dot bikes__dot_active"></a>
+        <a href="#" class="bikes__dot"></a>
+        <a href="#" class="bikes__dot"></a>
+      </div>
+    </section>
+    <section id="train" class="train">
+      <h2 class="train__title section-title">Тренировки</h2>
+      <img class="train__img" src="images/train/1.jpg" alt="Дорога за городом">
+      <p class="train__text section-text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,
+        а&nbsp;записать
+        эти тренировки поможет приложение Strava, а&nbsp;также это приложение позволит построить тренировочный план.
+      </p>
+      <ul class="train__links">
+        <li>
+          <a class="train__link" href="#">Strava</a>
+        </li>
+        <li>
+          <a class="train__link" href="#">Komoot</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <h2 class="footer__title">Подпишитесь на рассылку —</h2>
+    <form class="footer__form">
+      <input class="footer__input" type="email" placeholder="Ваш e-mail">
+      <button class="footer__input-submit" type="submit">ok</button>
+    </form>
+    <div class="footer__bottom">
+      <p class="footer__copyright">&copy; Road Club 2021</p>
+      <div class="footer__switcher">
+        <img class="footer__switcher-img" src="images/footer/sun.svg" alt="Иконка светлой темы">
+        <a class="footer__switcher-backgrond" href="#">
+          <span class="footer__switcher-item"></span>
+        </a>
+        <img class="footer__switcher-img" src="images/footer/moon.svg" alt="Иконка темной темы">
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>

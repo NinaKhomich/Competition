@@ -1,0 +1,18 @@
+.slider__img-label {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 14px;
+  width: 70px;
+  height: 28px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  .slider__img-label {
+    width: 100px;
+    height: 40px;
+    bottom: 16px;
+  }
+}

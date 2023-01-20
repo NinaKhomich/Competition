@@ -1,0 +1,15 @@
+.train__img {
+  grid-area: 1 / 2 / 4 / 3;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1023px) {
+  .train__img {
+    display: block;
+    max-height: 460px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

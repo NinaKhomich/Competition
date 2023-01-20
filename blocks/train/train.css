@@ -1,0 +1,36 @@
+.train {
+  padding: 150px 120px 120px 120px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 60px 370px 30px;
+  grid-column-gap: 40px;
+  position: relative;
+}
+
+.train::after {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 18px;
+  width: calc(100% - (18px * 2));
+  border-top: 1px solid #e3e3e3;
+  opacity: 0.6;
+  content: "";
+}
+
+@media screen and (max-width: 1279px) {
+  .train {
+    padding: 40px 18px 60px 18px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .train {
+    display: block;
+    flex-direction: column;
+  }
+
+  .train::after {
+    display: block;
+  }
+}

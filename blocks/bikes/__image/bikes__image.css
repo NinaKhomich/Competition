@@ -1,0 +1,24 @@
+.bikes__image {
+  border-radius: 20px;
+  padding: 20px;
+  background: #f4f4f4;
+  margin: 0 0 17px 0;
+  object-fit: cover;
+  max-width: 380px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .bikes__image {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bikes__image {
+    max-width: 284px;
+    margin: 0;
+    padding: 15px 15px 37px 15px;
+  }
+}

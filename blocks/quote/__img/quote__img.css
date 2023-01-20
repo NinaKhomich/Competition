@@ -1,0 +1,8 @@
+.quote__img {
+  width: 100%;
+  min-height: 204px;
+  max-width: 650px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}

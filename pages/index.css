@@ -1,2 +1,76 @@
-@import url('../vendor/normalize.css');
-@import url('../vendor/fonts.css');
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts.css");
+@import url("../blocks/page/page.css");
+
+@import url("../blocks/main/main.css");
+@import url("../blocks/section-title/section-title.css");
+@import url("../blocks/section-text/section-text.css");
+
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__wrapper/header__wrapper.css");
+@import url("../blocks/header/__nav/header__nav.css");
+@import url("../blocks/header/__links/header__links.css");
+@import url("../blocks/header/__link/header__link.css");
+@import url("../blocks/burger-menu/burger-menu.css");
+
+@import url("../blocks/intro/intro.css");
+@import url("../blocks/intro/__img/intro__img.css");
+@import url("../blocks/intro/__head/intro__head.css");
+@import url("../blocks/intro/__text/intro__text.css");
+@import url("../blocks/intro/__sticky-area/intro__sticky-area.css");
+@import url("../blocks/intro/__cycle-photo/intro__cycle-photo.css");
+@import url("../blocks/intro/__cycle-name/intro__cycle-name.css");
+@import url("../blocks/intro/__btn/intro__btn.css");
+
+@import url("../blocks/quote/quote.css");
+@import url("../blocks/quote/__img/quote__img.css");
+@import url("../blocks/quote/__content/quote__content.css");
+@import url("../blocks/quote/__block/quote__block.css");
+@import url("../blocks/quote/__text/quote__text.css");
+@import url("../blocks/quote/__author/quote__author.css");
+@import url("../blocks/quote/__author-subline/quote__author-subline.css");
+
+@import url("../blocks/roads/roads.css");
+@import url("../blocks/roads/__item/roads__item.css");
+@import url("../blocks/slider/slider.css");
+@import url("../blocks/slider/__img/slider__img.css");
+@import url("../blocks/slider/__img-label/slider__img-label.css");
+@import url("../blocks/slider/__img-label/_road/slider__img-label_road_highway.css");
+@import url("../blocks/arrows/arrows.css");
+@import url("../blocks/arrows/__item/arrows__item.css");
+@import url("../blocks/arrows/__item/_direction/arrows__item_direction_left.css");
+@import url("../blocks/arrows/__item/_direction/arrows__item_direction_right.css");
+
+@import url("../blocks/train/train.css");
+@import url("../blocks/train/__title/train__title.css");
+@import url("../blocks/train/__img/train__img.css");
+@import url("../blocks/train/__text/train__text.css");
+@import url("../blocks/train/__links/train__links.css");
+@import url("../blocks/train/__link/train__link.css");
+
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__title/footer__title.css");
+@import url("../blocks/footer/__form/footer__form.css");
+@import url("../blocks/footer/__input/footer__input.css");
+@import url("../blocks/footer/__input-submit/footer__input-submit.css");
+@import url("../blocks/footer/__bottom/footer__bottom.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
+@import url("../blocks/footer/__switcher/footer__switcher.css");
+@import url("../blocks/footer/__switcher-backgrond/footer__switcher-backgrond.css");
+@import url("../blocks/footer/__switcher-item/footer__switcher-item.css");
+@import url("../blocks/footer/__switcher-img/footer__switcher-img.css");
+
+@import url("../blocks/bikes/bikes.css");
+@import url("../blocks/bikes/__heading/bikes__heading.css");
+@import url("../blocks/bikes/__title/bikes__title.css");
+@import url("../blocks/bikes/__nav/bikes__nav.css");
+@import url("../blocks/bikes/__nav-item/bikes__nav-item.css");
+@import url("../blocks/bikes/__nav-item/_active/bikes__nav-item_active.css");
+@import url("../blocks/bikes/__slider/bikes__slider.css");
+@import url("../blocks/bikes/__slide/bikes__slide.css");
+@import url('../blocks/bikes/__slide-link/bikes__slide-link.css');
+@import url("../blocks/bikes/__image/bikes__image.css");
+@import url("../blocks/bikes/__name/bikes__name.css");
+@import url("../blocks/bikes/__dots/bikes__dots.css");
+@import url("../blocks/bikes/__dot/bikes__dot.css");
+@import url("../blocks/bikes/__dot/_active/bikes__dot_active.css");

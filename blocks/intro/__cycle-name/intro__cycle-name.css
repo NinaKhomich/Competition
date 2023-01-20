@@ -1,0 +1,25 @@
+.intro__cycle-name {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__cycle-name {
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 123px;
+    margin-bottom: 0;
+    width: fit-content;
+    position: relative;
+  }
+
+  .intro__cycle-name::after {
+    content: '';
+    width: 132px;
+    height: 2px;
+    background-color: #707070;
+    position: absolute;
+    top: 50%;
+    right: -162px;
+  }
+}
