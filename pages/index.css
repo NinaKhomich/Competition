@@ -68,6 +68,7 @@
 @import url("../blocks/bikes/__nav-item/_active/bikes__nav-item_active.css");
 @import url("../blocks/bikes/__slider/bikes__slider.css");
 @import url("../blocks/bikes/__slide/bikes__slide.css");
+@import url('../blocks/bikes/__slide-link/bikes__slide-link.css');
 @import url("../blocks/bikes/__image/bikes__image.css");
 @import url("../blocks/bikes/__name/bikes__name.css");
 @import url("../blocks/bikes/__dots/bikes__dots.css");

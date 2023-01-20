@@ -28,13 +28,12 @@
 
 @media screen and (min-width: 1280px) {
   .roads {
-    padding-left: 40px;
+    padding: 60px 0 60px 120px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .roads {
-    padding: 60px 0 60px 120px;
     max-width: 1440px;
     margin: 0 auto;
     box-sizing: border-box;

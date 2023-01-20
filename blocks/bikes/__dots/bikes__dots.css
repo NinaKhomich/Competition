@@ -8,5 +8,6 @@
 @media screen and (max-width: 767px) {
   .bikes__dots {
     display: flex;
+    margin-top: 17px;
   }
 }
