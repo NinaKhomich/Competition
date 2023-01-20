@@ -1,0 +1,23 @@
+.bikes {
+  padding: 60px 120px 60px;
+}
+
+.bikes::after {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 18px;
+  width: calc(100% - (18px * 2));
+  border-top: 1px solid #e3e3e3;
+  content: "";
+}
+
+@media screen and (max-width: 1023px) {
+  .bikes {
+    padding: 40px 18px 40px;
+  }
+
+  .bikes::after {
+    display: block;
+  }
+}

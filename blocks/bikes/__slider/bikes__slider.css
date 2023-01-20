@@ -1,0 +1,24 @@
+.bikes__slider {
+  list-style: none;
+  display: flex;
+  flex: 1 1 33.333%;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .bikes__slider {
+    overflow: hidden;
+    width: 380px;
+    margin: 0 auto;
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bikes__slider {
+    width: 284px;
+  }
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 1023px) {
+  .bikes__slide {
+    position: relative;
+    left: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bikes__slide {
+    position: relative;
+    position: relative;
+  }
+}

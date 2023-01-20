@@ -1,0 +1,34 @@
+.bikes__nav {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  align-self: end;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .bikes__nav {
+    position: relative;
+    flex-direction: column;
+    gap: 0px;
+    height: 30px;
+    overflow: hidden;
+    align-self: flex-start;
+    z-index: 100;
+  }
+
+  .bikes__nav:hover {
+    overflow: visible;
+  }
+
+  .bikes__nav::after {
+    content: "";
+    width: 12px;
+    height: 7px;
+    background: url("../images/bikes/drop-down-arrow.svg") no-repeat;
+    position: absolute;
+    top: calc(15px - 3.5px);
+    right: 12px;
+  }
+}

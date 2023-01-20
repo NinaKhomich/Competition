@@ -9,263 +9,35 @@
 @import url("../blocks/header/__link/header__link.css");
 @import url("../blocks/burger-menu/burger-menu.css");
 
-.footer {
-  padding: 80px 120px 60px 120px;
-  background-color: #2f2f2f;
-}
+@import url("../blocks/train/train.css");
+@import url("../blocks/train/__title/train__title.css");
+@import url("../blocks/train/__img/train__img.css");
+@import url("../blocks/train/__text/train__text.css");
+@import url("../blocks/train/__links/train__links.css");
+@import url("../blocks/train/__link/train__link.css");
 
-@media screen and (max-width: 767px) {
-  .footer {
-    padding: 60px 18px 25px 18px;
-  }
-}
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__title/footer__title.css");
+@import url("../blocks/footer/__form/footer__form.css");
+@import url("../blocks/footer/__input/footer__input.css");
+@import url("../blocks/footer/__input-submit/footer__input-submit.css");
+@import url("../blocks/footer/__bottom/footer__bottom.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
+@import url("../blocks/footer/__switcher/footer__switcher.css");
+@import url("../blocks/footer/__switcher-backgrond/footer__switcher-backgrond.css");
+@import url("../blocks/footer/__switcher-item/footer__switcher-item.css");
+@import url("../blocks/footer/__switcher-img/footer__switcher-img.css");
 
-.footer__title {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  max-width: 230px;
-  margin: 0 0 50px 0;
-}
-
-.footer__form {
-  position: relative;
-  max-width: 360px;
-}
-
-.footer__input {
-  box-sizing: border-box;
-  width: 100%;
-  height: 50px;
-  margin: 0 0 100px;
-  background: inherit;
-  box-shadow: none;
-  border: 1px solid rgba(125, 125, 125, 0.5);
-  border-radius: 4px;
-  padding: 0 20px;
-  color: #fff;
-  font-weight: 500;
-  font-size: 13px;
-}
-
-.footer__input:focus {
-  border: 1px solid rgb(125, 125, 125);
-  outline: none;
-}
-
-.footer__input:focus + .footer__input-submit {
-  visibility: visible;
-}
-
-.footer__input:focus::placeholder {
-  color: transparent;
-}
-
-.footer__input::placeholder {
-  font-family: "Inter";
-  font-weight: 500;
-  font-size: 13px;
-  color: #fff;
-  opacity: 0.5;
-  transition: opacity 0.3s ease;
-}
-
-.footer__input:hover::placeholder {
-  opacity: 1;
-}
-
-.footer__input-submit {
-  visibility: hidden;
-  padding: 0;
-  position: absolute;
-  top: 15px;
-  right: 22px;
-  background-color: transparent;
-  box-shadow: none;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-}
-
-.footer__bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer__copyright {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
-  color: #565656;
-  margin: 0;
-}
-
-.footer__switcher {
-  display: flex;
-  align-items: center;
-  gap: 22px;
-}
-
-.footer__switcher-backgrond {
-  position: relative;
-  display: inline-block;
-  width: 44px;
-  height: 24px;
-  background: #545454;
-  border-radius: 12px;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 767px) {
-  .footer__switcher-backgrond {
-    width: 32px;
-    height: 32px;
-    background: url("../images/footer/sun-mobile.svg") center no-repeat;
-  }
-}
-
-.footer__switcher-item {
-  position: absolute;
-  top: calc(50% - 10px);
-  right: 2px;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border-radius: 100%;
-  background: #24b47e;
-}
-
-@media screen and (max-width: 767px) {
-  .footer__switcher-item {
-    display: none;
-  }
-
-  .footer__switcher-img {
-    display: none;
-  }
-}
-
-/* =================================================================== */
-/* =================================================================== */
-/* =================================================================== */
-
-.train {
-  padding: 150px 120px 120px 120px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 60px 370px 30px;
-  grid-column-gap: 40px;
-  position: relative;
-}
-
-.train::after {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 18px;
-  width: calc(100% - (18px * 2));
-  border-top: 1px solid #e3e3e3;
-  content: "";
-}
-
-@media screen and (max-width: 1023px) {
-  .train {
-    padding: 40px 18px 60px 18px;
-    display: block;
-    flex-direction: column;
-  }
-
-  .train::after {
-    display: block;
-  }
-}
-
-.train__title {
-  margin: 0 0 50px 0;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 60px;
-  letter-spacing: -0.5px;
-}
-
-@media screen and (max-width: 424px) {
-  .train__title {
-    font-size: 32px;
-    line-height: 40px;
-    margin: 0 0 40px 0;
-  }
-}
-
-.train__img {
-  grid-area: 1 / 2 / 4 / 3;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-@media screen and (max-width: 1023px) {
-  .train__img {
-    display: block;
-    max-height: 460px;
-    margin: 0 auto;
-    text-align: center;
-  }
-}
-
-.train__text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  color: #e5e5e5;
-  opacity: 0.7;
-  max-width: 460px;
-  margin: 0;
-  padding: 50px 0 0 0;
-}
-
-@media screen and (max-width: 1023px) {
-  .train__text {
-    margin: 0 0 40px 0;
-    padding: 40px 0 0 0;
-  }
-}
-
-@media screen and (max-width: 424px) {
-  .train__text {
-    font-size: 12px;
-    line-height: 18px;
-  }
-}
-
-.train__links {
-  display: flex;
-  gap: 30px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  align-self: end;
-}
-.train__link {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 28px;
-  transition: opacity 0.3s ease;
-}
-
-.train__link:hover {
-  opacity: 0.75;
-}
-
-@media screen and (max-width: 424px) {
-  .train__link {
-    font-size: 14px;
-    line-height: 20px;
-  }
-}
-
-/* =================================================================== */
-/* =================================================================== */
-/* =================================================================== */
+@import url("../blocks/bikes/bikes.css");
+@import url("../blocks/bikes/__heading/bikes__heading.css");
+@import url("../blocks/bikes/__title/bikes__title.css");
+@import url("../blocks/bikes/__nav/bikes__nav.css");
+@import url("../blocks/bikes/__nav-item/bikes__nav-item.css");
+@import url("../blocks/bikes/__nav-item/_active/bikes__nav-item_active.css");
+@import url("../blocks/bikes/__slider/bikes__slider.css");
+@import url("../blocks/bikes/__slide/bikes__slide.css");
+@import url("../blocks/bikes/__image/bikes__image.css");
+@import url("../blocks/bikes/__name/bikes__name.css");
+@import url("../blocks/bikes/__dots/bikes__dots.css");
+@import url("../blocks/bikes/__dot/bikes__dot.css");
+@import url("../blocks/bikes/__dot/_active/bikes__dot_active.css");
