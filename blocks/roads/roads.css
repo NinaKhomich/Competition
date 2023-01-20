@@ -6,8 +6,9 @@
 
 .roads::after {
   position: absolute;
-  content: '';
+  content: "";
   border-top: 1px solid #e3e3e3;
+  opacity: 0.6;
   width: calc(100% - 36px);
   top: 40px;
   left: 18px;

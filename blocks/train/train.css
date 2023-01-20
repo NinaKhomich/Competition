@@ -14,12 +14,18 @@
   left: 18px;
   width: calc(100% - (18px * 2));
   border-top: 1px solid #e3e3e3;
+  opacity: 0.6;
   content: "";
+}
+
+@media screen and (max-width: 1279px) {
+  .train {
+    padding: 40px 18px 60px 18px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
   .train {
-    padding: 40px 18px 60px 18px;
     display: block;
     flex-direction: column;
   }
