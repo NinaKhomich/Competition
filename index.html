@@ -15,20 +15,20 @@
       <nav class="header__nav">
         <ul class="header__links">
           <li class="header__links-item">
-            <a href="#" class="header__link">Покрытия и градиенты</a>
+            <a href="#roads" class="header__link">Покрытия и градиенты</a>
           </li>
           <li class="header__links-item">
-            <a href="#" class="header__link">Велосипеды</a>
+            <a href="#bikes" class="header__link">Велосипеды</a>
           </li>
           <li class="header__links-item">
-            <a href="#" class="header__link">Тренировки</a>
+            <a href="#train" class="header__link">Тренировки</a>
           </li>
         </ul>
       </nav>
       <div class="burger-menu"></div>
     </div>
   </header>
-  <main class="main">
+  <main class="main content">
     <section class="intro">
       <h1 class="intro__head section-title">Шоссе, ТТ и&nbsp;Грэвел</h1>
       <p class="intro__text section-text">Триатлонные старты, горные серпантины или грейвел заезды по живописным
@@ -52,7 +52,7 @@
         </div>
       </div>
     </section>
-    <section class="roads" aria-label="Тип дороги">
+    <section class="roads" id="roads" aria-label="Тип дороги">
       <article class="roads__item">
         <h2 class="roads__title section-title">Шоссе</h2>
         <p class="roads__text section-text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах:
@@ -68,7 +68,7 @@
         <button type="button" class="arrows__item arrows__item_direction_right"></button>
       </div>
     </section>
-    <section class="bikes">
+    <section id="bikes" class="content__bikes bikes">
       <div class="bikes__heading">
         <h2 class="bikes__title section-title">Велосипеды</h2>
         <ul class="bikes__nav">
@@ -103,8 +103,8 @@
         <a href="#" class="bikes__dot"></a>
       </div>
     </section>
-    <section class="train">
-      <h2 class="train__title section-title">Тренировки</h2>
+    <section id="train" class="content__train train">
+      <h2 class="train__title">Тренировки</h2>
       <img class="train__img" src="images/train/1.jpg" alt="Дорога за городом">
       <p class="train__text section-text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,
         а&nbsp;записать
@@ -137,7 +137,6 @@
       </div>
     </div>
   </footer>
-
 </body>
 
 </html>
