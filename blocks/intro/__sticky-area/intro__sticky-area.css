@@ -1,0 +1,28 @@
+.intro__sticky-area {
+  position: absolute;
+  left: 18px;
+  top: 311px;
+}
+
+@media screen and (min-width: 768px) {
+  .intro__sticky-area {
+    top: 492px;
+    left: 220px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__sticky-area {
+    top: unset;
+    left: unset;
+    bottom: 100px;
+    right: 370px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__sticky-area {
+    height: 430px;
+    bottom: 79px;
+  }
+}

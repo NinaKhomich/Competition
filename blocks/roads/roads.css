@@ -1,0 +1,41 @@
+.roads {
+  padding: 40px 18px;
+  gap: 40px;
+  position: relative;
+}
+
+.roads::after {
+  position: absolute;
+  content: '';
+  border-top: 1px solid #e3e3e3;
+  width: calc(100% - 36px);
+  top: 40px;
+  left: 18px;
+}
+
+@media screen and (min-width: 576px) {
+  .roads {
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .roads::after {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .roads {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .roads {
+    padding: 60px 0 60px 120px;
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+}
