@@ -11,6 +11,8 @@
 
 @media screen and (min-width: 1024px) {
   .intro__cycle-photo {
+    position: sticky;
+    top: 347px;
     width: 440px;
     height: 300px;
     padding: 20px 50px;
@@ -19,7 +21,6 @@
 
 @media screen and (min-width: 1280px) {
   .intro__cycle-photo {
-    position: sticky;
     top: 347px;
   }
 }
