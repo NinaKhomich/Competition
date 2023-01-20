@@ -18,7 +18,9 @@
   .bikes {
     padding: 40px 18px 40px;
   }
+}
 
+@media screen and (max-width: 1023px) {
   .bikes::after {
     display: block;
   }
